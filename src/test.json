@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "status": "success",
+    "message": "Parabéns! Você foi selecionado e passou para próxima etapa.",
+    "info": {
+        "company": "BrokerHunter",
+        "office": "Desenvolvedor Frontend",
+        "language": "React",
+        "subject": "Criar tela para listagem de objetos obtidos via api. Na listagem deverão conter todos os dados vindos da api e ações listadas na task.",
+        "evaluation": "Será avaliado: organização dos componentes, estrutura do projeto, boas práticas de codificação, UI & UX, tempo de entrega.",
+        "deadline": "1d",
+        "delivery": "Disponibilizar projeto em repositório com instruções para rodar localmente."
+    },
+    "task": {
+        "description": {
+            "header": "Logo qualquer.",
+            "sidebar": "sidebar lateral com ícones e labels: Tutoriais, Listas, Integrações, Configurações. Apenas para representação, sem ações.",
+            "screen": "Criar interface de listagem de objetos, com botões de ação de acordo com as actions.",
+            "UI_UX": "Mensagens de sucesso ou atenção para ações.",
+            "requests": "Para ações de editar, duplicar e excluir, executar ações normalmente em tela e deverá ser impresso no console os dados que seriam enviados para api."
+        },
+        "material": "https://material-ui.com/pt/",
+        "actions": "Listar, Editar, Duplicar, Excluir",
+        "api": {
+            "method": "GET",
+            "authorization": "Bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImNvbXBhbnkiOiJCcm9rZXJIdW50ZXIiLCJvZmZpY2UiOiJGcm9udGVuZCBkZXZlbG9wZXIiLCJvYmplY3RpdmUiOiJTa2lsbCB0ZXN0In19.mn4yrrmXlrobiMSqVd8rlPQU_XI1F8uX-3YyG_Plmeo",
+            "endpoint": "http://homologacao.jaguarimobiliario.com.br/list" 
+        }
+    }
+}
